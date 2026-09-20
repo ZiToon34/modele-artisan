@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Mentions légales</title>
+<meta name="robots" content="noindex,follow">
+<link rel="icon" href="/favicon.ico">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600;9..144,700&family=Inter:wght@400;500;600&display=swap" media="print" onload="this.media='all'">
+<link rel="stylesheet" href="style.css">
+<style>
+  .doc { max-width: 760px; margin: 0 auto; padding: calc(var(--barre) + 50px) 24px 80px; }
+  .doc h1 { font-family: var(--titre); font-size: 32px; margin-bottom: 8px; }
+  .doc h2 { font-family: var(--titre); font-size: 19px; margin: 30px 0 10px; color: var(--rouille); }
+  .doc p, .doc li { font-size: 15.5px; color: var(--ardoise); margin-bottom: 10px; }
+  .doc ul { padding-left: 20px; }
+  .doc .maj { color: var(--gris); font-size: 14px; margin-bottom: 26px; }
+  .doc a { color: var(--rouille); }
+  .arempli { background: var(--rouille-pale); border: 1px solid #E8C4B0; border-radius: 4px;
+             padding: 12px 14px; color: var(--rouille-fonce); font-size: 14px; margin: 12px 0; }
+</style>
+</head>
+<body>
+<header class="barre">
+  <div class="corps">
+    <a class="logo" href="/">
+      <span data-cms-text="entreprise.metier">Menuisier</span>
+      <em style="font-style:normal" data-cms-text="entreprise.nom">Atelier Durand</em>
+    </a>
+    <nav class="menu"><a href="/">Retour au site</a></nav>
+  </div>
+</header>
+
+<main class="doc">
+
+  <h1>Mentions légales</h1>
+  <p class="maj">Dernière mise à jour : [DATE]</p>
+
+  <h2>Éditeur du site</h2>
+  <div class="arempli"><strong>À compléter avant la mise en ligne :</strong> raison sociale,
+  forme juridique, adresse, SIRET, code APE, numéro de TVA le cas échéant, et nom du
+  responsable de publication.</div>
+  <p>
+    [NOM DE L'ENTREPRISE]<br>
+    [ADRESSE]<br>
+    Téléphone : <span data-cms-text="contact.telephone">06 00 00 00 00</span><br>
+    Email : <span data-cms-text="contact.email">contact@exemple.fr</span><br>
+    SIRET : [SIRET]
+  </p>
+
+  <h2>Hébergement</h2>
+  <p>
+    Netlify, Inc. — 512 2nd Street, Suite 200, San Francisco, CA 94107, États-Unis —
+    <a href="https://www.netlify.com" target="_blank" rel="noopener">netlify.com</a>
+  </p>
+
+  <h2>Propriété intellectuelle</h2>
+  <p>
+    L'ensemble du contenu de ce site — textes, photographies, graphismes — est protégé par
+    le droit d'auteur. Toute reproduction sans autorisation écrite préalable est interdite.
+  </p>
+
+  <h2>Assurance professionnelle</h2>
+  <div class="arempli"><strong>À compléter :</strong> nom de l'assureur, numéro de contrat et
+  couverture géographique. C'est une obligation pour les artisans du bâtiment.</div>
+
+  <h2>Médiation de la consommation</h2>
+  <div class="arempli"><strong>À compléter :</strong> nom, adresse et site du médiateur.
+  Obligatoire pour toute activité vendant à des particuliers.</div>
+
+  <h2>Données personnelles</h2>
+  <p>Voir la <a href="confidentialite.html">politique de confidentialité</a>.</p>
+
+</main>
+
+<footer class="pied">
+  <div class="corps">
+    <div><strong data-cms-text="entreprise.nom">Atelier Durand</strong></div>
+    <div class="pied-liens">
+      <a href="/">Accueil</a>
+      <a href="mentions-legales.html">Mentions légales</a>
+      <a href="confidentialite.html">Confidentialité</a>
+    </div>
+  </div>
+</footer>
+
+<script defer src="cms.js" data-cms-repo="COMPTE/DEPOT"></script>
+</body>
+</html>
