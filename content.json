@@ -4,33 +4,105 @@
       "id": "hero",
       "label": "Bannière d'accueil",
       "fields": [
-        { "id": "surtitre", "label": "Petit texte au-dessus du titre", "type": "text", "value": "Artisan depuis 2010 — Lodève et alentours" },
-        { "id": "titre", "label": "Titre principal", "type": "text", "value": "Le travail bien fait, du premier coup" },
-        { "id": "soustitre", "label": "Phrase d'accroche", "type": "text", "value": "Menuiserie sur mesure, pose et rénovation. Un interlocuteur unique, du devis à la finition." },
-        { "id": "btn1", "label": "Bouton principal", "type": "text", "value": "Demander un devis" },
-        { "id": "btn2", "label": "Lien secondaire", "type": "text", "value": "Voir mes réalisations" },
-        { "id": "photo", "label": "Photo de fond", "type": "image", "value": "hero.jpg" },
-        { "id": "argument1", "label": "Argument 1", "type": "text", "value": "Devis gratuit sous 48 h" },
-        { "id": "argument2", "label": "Argument 2", "type": "text", "value": "Garantie décennale" },
-        { "id": "argument3", "label": "Argument 3", "type": "text", "value": "Déplacement dans un rayon de 40 km" }
+        {
+          "id": "surtitre",
+          "label": "Petit texte au-dessus du titre",
+          "type": "text",
+          "value": "Artisan depuis 2010 — Lodève et alentours"
+        },
+        {
+          "id": "titre",
+          "label": "Titre principal",
+          "type": "text",
+          "value": "Le travail bien fait, du premier coup"
+        },
+        {
+          "id": "soustitre",
+          "label": "Phrase d'accroche",
+          "type": "text",
+          "value": "Menuiserie sur mesure, pose et rénovation. Un interlocuteur unique, du devis à la finition."
+        },
+        {
+          "id": "btn1",
+          "label": "Bouton principal",
+          "type": "text",
+          "value": "Demander un devis"
+        },
+        {
+          "id": "btn2",
+          "label": "Lien secondaire",
+          "type": "text",
+          "value": "Voir mes réalisations"
+        },
+        {
+          "id": "photo",
+          "label": "Photo de fond",
+          "type": "image",
+          "value": "hero.jpg"
+        },
+        {
+          "id": "argument1",
+          "label": "Argument 1",
+          "type": "text",
+          "value": "Devis gratuit sous 48 h"
+        },
+        {
+          "id": "argument2",
+          "label": "Argument 2",
+          "type": "text",
+          "value": "Garantie décennale"
+        },
+        {
+          "id": "argument3",
+          "label": "Argument 3",
+          "type": "text",
+          "value": "Déplacement dans un rayon de 40 km"
+        }
       ]
     },
     {
       "id": "services",
       "label": "Prestations",
       "fields": [
-        { "id": "surtitre", "label": "Petit texte au-dessus", "type": "text", "value": "Savoir-faire" },
-        { "id": "titre", "label": "Titre de la section", "type": "text", "value": "Ce que je réalise" },
-        { "id": "intro", "label": "Texte d'introduction", "type": "text", "value": "Chaque chantier est différent. Je me déplace, j'écoute, et je propose la solution qui tient dans la durée." },
+        {
+          "id": "surtitre",
+          "label": "Petit texte au-dessus",
+          "type": "text",
+          "value": "Savoir-faire"
+        },
+        {
+          "id": "titre",
+          "label": "Titre de la section",
+          "type": "text",
+          "value": "Ce que je réalise"
+        },
+        {
+          "id": "intro",
+          "label": "Texte d'introduction",
+          "type": "text",
+          "value": "Chaque chantier est différent. Je me déplace, j'écoute, et je propose la solution qui tient dans la durée."
+        },
         {
           "id": "liste",
           "label": "Prestations",
           "type": "liste",
           "value": [
-            { "label": "Menuiserie sur mesure", "valeur": "Placards, bibliothèques, plans de travail. Conçus pour votre espace, réalisés en atelier." },
-            { "label": "Pose de fermetures", "valeur": "Fenêtres, portes, volets. Dépose de l'ancien, pose et finitions comprises." },
-            { "label": "Rénovation", "valeur": "Parquets, escaliers, charpentes apparentes. Remise en état dans le respect de l'existant." },
-            { "label": "Aménagement extérieur", "valeur": "Terrasses, pergolas, bardages. Essences choisies pour résister au climat local." }
+            {
+              "label": "Menuiserie sur mesure",
+              "valeur": "Placards, bibliothèques, plans de travail. Conçus pour votre espace, réalisés en atelier."
+            },
+            {
+              "label": "Pose de fermetures",
+              "valeur": "Fenêtres, portes, volets. Dépose de l'ancien, pose et finitions comprises."
+            },
+            {
+              "label": "Rénovation",
+              "valeur": "Parquets, escaliers, charpentes apparentes. Remise en état dans le respect de l'existant."
+            },
+            {
+              "label": "Aménagement extérieur",
+              "valeur": "Terrasses, pergolas, bardages. Essences choisies pour résister au climat local."
+            }
           ]
         }
       ]
@@ -39,29 +111,96 @@
       "id": "apropos",
       "label": "À propos",
       "fields": [
-        { "id": "surtitre", "label": "Petit texte au-dessus", "type": "text", "value": "Qui je suis" },
-        { "id": "titre", "label": "Titre", "type": "text", "value": "Un métier appris sur le terrain" },
-        { "id": "texte1", "label": "Paragraphe 1", "type": "text", "value": "J'ai appris le métier auprès d'un artisan de la vallée, puis je me suis installé à mon compte en 2010. Depuis, je travaille seul sur mes chantiers : vous savez toujours qui vient chez vous." },
-        { "id": "texte2", "label": "Paragraphe 2", "type": "text", "value": "Je privilégie les bois locaux et les assemblages traditionnels. C'est plus long, mais ça tient." },
-        { "id": "photo", "label": "Photo", "type": "image", "value": "atelier.jpg" },
-        { "id": "chiffre1", "label": "Chiffre 1", "type": "text", "value": "15 ans" },
-        { "id": "chiffre1_label", "label": "Chiffre 1 — Libellé", "type": "text", "value": "d'expérience" },
-        { "id": "chiffre2", "label": "Chiffre 2", "type": "text", "value": "200+" },
-        { "id": "chiffre2_label", "label": "Chiffre 2 — Libellé", "type": "text", "value": "chantiers livrés" }
+        {
+          "id": "surtitre",
+          "label": "Petit texte au-dessus",
+          "type": "text",
+          "value": "Qui je suis"
+        },
+        {
+          "id": "titre",
+          "label": "Titre",
+          "type": "text",
+          "value": "Un métier appris sur le terrain"
+        },
+        {
+          "id": "texte1",
+          "label": "Paragraphe 1",
+          "type": "text",
+          "value": "J'ai appris le métier auprès d'un artisan de la vallée, puis je me suis installé à mon compte en 2010. Depuis, je travaille seul sur mes chantiers : vous savez toujours qui vient chez vous."
+        },
+        {
+          "id": "texte2",
+          "label": "Paragraphe 2",
+          "type": "text",
+          "value": "Je privilégie les bois locaux et les assemblages traditionnels. C'est plus long, mais ça tient."
+        },
+        {
+          "id": "photo",
+          "label": "Photo",
+          "type": "image",
+          "value": "atelier.jpg"
+        },
+        {
+          "id": "chiffre1",
+          "label": "Chiffre 1",
+          "type": "text",
+          "value": "15 ans"
+        },
+        {
+          "id": "chiffre1_label",
+          "label": "Chiffre 1 — Libellé",
+          "type": "text",
+          "value": "d'expérience"
+        },
+        {
+          "id": "chiffre2",
+          "label": "Chiffre 2",
+          "type": "text",
+          "value": "200+"
+        },
+        {
+          "id": "chiffre2_label",
+          "label": "Chiffre 2 — Libellé",
+          "type": "text",
+          "value": "chantiers livrés"
+        }
       ]
     },
     {
       "id": "galerie",
       "label": "Réalisations",
       "fields": [
-        { "id": "surtitre", "label": "Petit texte au-dessus", "type": "text", "value": "Sur le terrain" },
-        { "id": "titre", "label": "Titre de la section", "type": "text", "value": "Mes réalisations" },
-        { "id": "intro", "label": "Texte d'introduction", "type": "text", "value": "Quelques chantiers récents. Cliquez sur une photo pour l'agrandir." },
+        {
+          "id": "surtitre",
+          "label": "Petit texte au-dessus",
+          "type": "text",
+          "value": "Sur le terrain"
+        },
+        {
+          "id": "titre",
+          "label": "Titre de la section",
+          "type": "text",
+          "value": "Mes réalisations"
+        },
+        {
+          "id": "intro",
+          "label": "Texte d'introduction",
+          "type": "text",
+          "value": "Quelques chantiers récents. Cliquez sur une photo pour l'agrandir."
+        },
         {
           "id": "photos",
           "label": "Photos de chantiers",
           "type": "image-list",
-          "value": ["realisation-1.jpg", "realisation-2.jpg", "realisation-3.jpg", "realisation-4.jpg", "realisation-5.jpg", "realisation-6.jpg"]
+          "value": [
+            "realisation-1.jpg",
+            "realisation-2.jpg",
+            "realisation-3.jpg",
+            "realisation-4.jpg",
+            "realisation-5.jpg",
+            "realisation-6.jpg"
+          ]
         }
       ]
     },
@@ -69,19 +208,49 @@
       "id": "secteur",
       "label": "Zone d'intervention",
       "fields": [
-        { "id": "surtitre", "label": "Petit texte au-dessus", "type": "text", "value": "Où j'interviens" },
-        { "id": "titre", "label": "Titre", "type": "text", "value": "Lodève et la vallée de l'Hérault" },
-        { "id": "texte", "label": "Texte", "type": "text", "value": "Je me déplace dans un rayon de 40 kilomètres autour de Lodève. Au-delà, contactez-moi : c'est possible selon l'ampleur du chantier." },
+        {
+          "id": "surtitre",
+          "label": "Petit texte au-dessus",
+          "type": "text",
+          "value": "Où j'interviens"
+        },
+        {
+          "id": "titre",
+          "label": "Titre",
+          "type": "text",
+          "value": "Lodève et la vallée de l'Hérault"
+        },
+        {
+          "id": "texte",
+          "label": "Texte",
+          "type": "text",
+          "value": "Je me déplace dans un rayon de 40 kilomètres autour de Lodève. Au-delà, contactez-moi : c'est possible selon l'ampleur du chantier."
+        },
         {
           "id": "villes",
           "label": "Communes desservies",
           "type": "liste",
           "value": [
-            { "label": "Lodève", "valeur": "" },
-            { "label": "Clermont-l'Hérault", "valeur": "" },
-            { "label": "Gignac", "valeur": "" },
-            { "label": "Le Caylar", "valeur": "" },
-            { "label": "Ganges", "valeur": "" }
+            {
+              "label": "Lodève",
+              "valeur": ""
+            },
+            {
+              "label": "Clermont-l'Hérault",
+              "valeur": ""
+            },
+            {
+              "label": "Gignac",
+              "valeur": ""
+            },
+            {
+              "label": "Le Caylar",
+              "valeur": ""
+            },
+            {
+              "label": "Ganges",
+              "valeur": ""
+            }
           ]
         }
       ]
@@ -90,33 +259,104 @@
       "id": "contact",
       "label": "Contact",
       "fields": [
-        { "id": "surtitre", "label": "Petit texte au-dessus", "type": "text", "value": "Parlons de votre projet" },
-        { "id": "titre", "label": "Titre de la section", "type": "text", "value": "Un devis, c'est gratuit" },
-        { "id": "intro", "label": "Texte d'introduction", "type": "text", "value": "Le plus simple reste le téléphone. Décrivez-moi votre projet en quelques mots, je vous rappelle et je passe voir." },
-        { "id": "telephone", "label": "Téléphone", "type": "text", "value": "06 00 00 00 00" },
-        { "id": "email", "label": "Email", "type": "text", "value": "contact@exemple.fr" },
-        { "id": "adresse", "label": "Adresse", "type": "text", "value": "34700 Lodève" },
-        { "id": "horaires", "label": "Horaires", "type": "text", "value": "Du lundi au vendredi, 8 h – 18 h" },
-        { "id": "btn_tel", "label": "Bouton téléphone", "type": "text", "value": "Appeler maintenant" },
-        { "id": "btn_mail", "label": "Bouton email", "type": "text", "value": "Envoyer un message" }
+        {
+          "id": "surtitre",
+          "label": "Petit texte au-dessus",
+          "type": "text",
+          "value": "Parlons de votre projet"
+        },
+        {
+          "id": "titre",
+          "label": "Titre de la section",
+          "type": "text",
+          "value": "Un devis, c'est gratuit"
+        },
+        {
+          "id": "intro",
+          "label": "Texte d'introduction",
+          "type": "text",
+          "value": "Le plus simple reste le téléphone. Décrivez-moi votre projet en quelques mots, je vous rappelle et je passe voir."
+        },
+        {
+          "id": "telephone",
+          "label": "Téléphone",
+          "type": "text",
+          "value": "06 00 00 00 00"
+        },
+        {
+          "id": "email",
+          "label": "Email",
+          "type": "text",
+          "value": "contact@exemple.fr"
+        },
+        {
+          "id": "adresse",
+          "label": "Adresse",
+          "type": "text",
+          "value": "34700 Lodève"
+        },
+        {
+          "id": "horaires",
+          "label": "Horaires",
+          "type": "text",
+          "value": "Du lundi au vendredi, 8 h – 18 h"
+        },
+        {
+          "id": "btn_tel",
+          "label": "Bouton téléphone",
+          "type": "text",
+          "value": "Appeler maintenant"
+        },
+        {
+          "id": "btn_mail",
+          "label": "Bouton email",
+          "type": "text",
+          "value": "Envoyer un message"
+        }
       ]
     },
     {
       "id": "entreprise",
       "label": "Identité de l'entreprise",
       "fields": [
-        { "id": "nom", "label": "Nom affiché", "type": "text", "value": "Atelier Durand" },
-        { "id": "metier", "label": "Métier", "type": "text", "value": "Menuisier" },
-        { "id": "description", "label": "Description (pied de page)", "type": "text", "value": "Menuiserie sur mesure, pose et rénovation à Lodève et dans la vallée de l'Hérault." }
+        {
+          "id": "nom",
+          "label": "Nom affiché",
+          "type": "text",
+          "value": "Atelier Durand"
+        },
+        {
+          "id": "metier",
+          "label": "Métier",
+          "type": "text",
+          "value": "Menuisier"
+        },
+        {
+          "id": "description",
+          "label": "Description (pied de page)",
+          "type": "text",
+          "value": "Menuiserie sur mesure, pose et rénovation à Lodève et dans la vallée de l'Hérault."
+        }
       ]
     },
     {
       "id": "social",
       "label": "Réseaux sociaux",
       "fields": [
-        { "id": "facebook", "label": "Lien Facebook", "type": "text", "value": "" },
-        { "id": "instagram", "label": "Lien Instagram", "type": "text", "value": "" }
+        {
+          "id": "facebook",
+          "label": "Lien Facebook",
+          "type": "text",
+          "value": ""
+        },
+        {
+          "id": "instagram",
+          "label": "Lien Instagram",
+          "type": "text",
+          "value": ""
+        }
       ]
     }
-  ]
+  ],
+  "pause": true
 }
